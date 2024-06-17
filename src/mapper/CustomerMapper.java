@@ -12,7 +12,6 @@ public class CustomerMapper {
                 .id(customer.getId())
                 .name(customer.getName())
                 .email(customer.getEmail())
-                .bio(customer.getBio())
                 .build();
     }
 }

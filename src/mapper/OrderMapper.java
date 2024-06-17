@@ -18,7 +18,6 @@ public class OrderMapper {
                         .id(order.getCustomer().getId())
                         .name(order.getCustomer().getName())
                         .email(order.getCustomer().getEmail())
-                        .bio(order.getCustomer().getBio())
                         .build())
                 .build();
     }
